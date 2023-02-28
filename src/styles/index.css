@@ -10,3 +10,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: black;
+}
+
+.reloj{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.number-container{
+    color: white;
+    background-color: rgb(48, 46, 46);
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 100px;
+    width: 80px;
+    margin: 5px;
+    font-size: 70px;
+    font-weight: bold;
+    height: 100%;
+}
+
+button{
+    margin-top:10px;
+    height: 80px;
+    width: 150px;
+}
